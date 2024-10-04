@@ -64,7 +64,7 @@ metadata:
 spec:
   steps:
     - name: flake8
-      image: python:3.8-slim
+      image: python:3.9-slim
       script: |
         #!/bin/sh
         pip install flake8

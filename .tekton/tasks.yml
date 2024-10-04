@@ -20,6 +20,7 @@ spec:
       script: |
         #!/usr/bin/env sh
         set -eu
+        pip install flake8
         echo "Removing all files from ${WORKSPACE_SOURCE_PATH} ..."
         # Delete any existing contents of the directory if it exists.
         #
